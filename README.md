@@ -6,5 +6,5 @@ Multiplication of matrices and linear refression are shown in each of these case
 The idea is to use:
 1. #levels-1  + Intercept  for the regression analysis
 OR
-2. #levels  (WITHOUT Intercept) for the regression analysis
+2. #levels  (WITHOUT Intercept) for the regression analysis. 
 By having intercept and all the levels of the factor causes multicolinearity in the model.
