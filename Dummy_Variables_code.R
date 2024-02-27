@@ -37,9 +37,9 @@ lm2  <- lm(y ~ c1+c2+c3, data=df2)# c4 is icluded by default, is the intercept
 
 ## 2nd way
 
-c1<- c(1,1,0,0,0,0)        # taking the three levels of the first level 
-c2<- c(0,0,1,1,0,0)
-c3<- c(0,0,0,0,1,1)
+c1<- c(1,1,0,0,0,0)        #1st factor, 1st level; taking the three levels of the first factor 
+c2<- c(0,0,1,1,0,0)        #1st factor, 2nd level 
+c3<- c(0,0,0,0,1,1)        #1st factor, 3rd level 
 c4<- c(0,1,0,0,1,1)        # taking only one level of the second level
 
 X3   <- cbind(c1,c2,c3,c4) # without including the intercept
